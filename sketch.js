@@ -69,7 +69,7 @@ function preload()
     winSound.setVolume(0.4);
     
     // CREDIT: https://freesound.org/people/PatrickLieberkind/
-    bgMusic = loadSound('assets/bgmusic.wav');
+    bgMusic = loadSound('assets/bgmusic2.mp3');
     bgMusic.setVolume(0.2);
     
     // LOAD FONT(S)
