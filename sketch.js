@@ -53,23 +53,23 @@ function preload()
 
     // LOAD SOUNDS
     
-    jumpSound = loadSound('./assets/jump.wav');
+    jumpSound = loadSound('assets/jump.wav');
     jumpSound.setVolume(0.1);
     
-    collectSound = loadSound('./assets/collect.wav');
+    collectSound = loadSound('assets/collect.wav');
     collectSound.setVolume(0.3);
     
-    fallSound = loadSound('./assets/fall.wav');
+    fallSound = loadSound('assets/fall.wav');
     fallSound.setVolume(0.6);
     
-    loseSound = loadSound('./assets/lose.wav');
+    loseSound = loadSound('assets/lose.wav');
     loseSound.setVolume(0.3);
     
-    winSound = loadSound('./assets/win.wav');
+    winSound = loadSound('assets/win.wav');
     winSound.setVolume(0.4);
     
     // CREDIT: https://freesound.org/people/PatrickLieberkind/
-    bgMusic = loadSound('./assets/bgmusic.wav');
+    bgMusic = loadSound('assets/bgmusic.wav');
     bgMusic.setVolume(0.2);
     
     // LOAD FONT(S)
